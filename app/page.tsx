@@ -42,10 +42,10 @@ export default function Home() {
 
             <div className="containerInput">
               <p>Use apenas os filtros que desejar.</p>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
+              <input type="text" placeholder="Nome da receita" />
+              <input type="text" placeholder="Ingredientes"/>
+              <input type="text"  placeholder="Tempo de preparo"/>
+              <input type="text" placeholder="Tipo de cozinha"/>
 
               <button className="buttonSearch">Pesquisar por receitas</button>
             </div>
@@ -53,11 +53,15 @@ export default function Home() {
           </div>
 
           <div className="gallery">
-
-            <div className="item1"></div>
-            <div className="item2"></div>
-            <div className="item3"></div>
-
+            <div className="one">
+              <img src="./images/photomain.jpg" alt="" />
+            </div>
+            <div className="two">
+              <img src="./images/macarrao.jpg" alt="" />
+            </div>
+            <div className="three">
+              <img src="./images/salmao_cozido.jpg" alt="" />
+            </div>
           </div>
 
 
